@@ -2,10 +2,10 @@ import React, { createRef, useState } from 'react'
 
 const config = {
     cors: "https://cors-anywhere.herokuapp.com/", // <optional> doesn't display the cors error
-    formUrl:  "https://docs.google.com/forms/u/5/d/e/1FAIpQLSduVqFp2IsSmYhL_ZfQnzDDcX7F1Q8uHZZxaB4vEn7yX18Xow/formResponse"
+    formUrl: "https://docs.google.com/forms/u/5/d/e/1FAIpQLSfQHQc0T8EHkvtTaKpUBvhfYWFbKexBiPLQGZ2Ac35M1SwflQ/formResponse"
 };
 
-const Contact = (props) => {
+const BookLesson = (props) => {
     const [submitResult, setSubmitResult] = useState();
 
     const formRef = createRef();
@@ -40,27 +40,35 @@ const Contact = (props) => {
                     <h4
                       // style={{ color: colors.AlertRed, maxWidth: "100%" }}
                     >
-                        Oops, something went wrong. Please try again.
+                        Ups... coś poszło nie tak. Spróbuj jeszcze raz.
                     </h4>
                   )}
                   {submitResult === "SUCCESS" ? (
                     <h4 style={{ maxWidth: "100%" }}>
-                        Thanks for the message. We’ll be in touch shortly.
+                        Poszło! Skontaktuję się z Tobą niebawem :)
                     </h4>
                   ) : (
                     <form ref={formRef} onSubmit={doSubmit}>
                         <h3>Masz pytania? Napisz do mnie!</h3>
                         <div className="field half first">
                             <label htmlFor="name">Imię</label>
-                            <input type="text" name="entry.1377344988" id="name" required/>
+                            <input type="text" name="entry.1266475115" id="name" required/>
                         </div>
                         <div className="field half">
+                            <label htmlFor="surname">Nazwisko</label>
+                            <input type="text" name="entry.1440471695" id="surname" required/>
+                        </div>
+                        <div className="field half first">
                             <label htmlFor="email">Email</label>
-                            <input type="email" name="entry.1174481608" id="email" required/>
+                            <input type="email" name="entry.899568842" id="email" required/>
+                        </div>
+                        <div className="field half">
+                            <label htmlFor="email">Telefon</label>
+                            <input type="text" name="entry.803941003" id="email" required/>
                         </div>
                         <div className="field">
-                            <label htmlFor="message">Wiadomość</label>
-                            <textarea name="entry.921174831" id="message" rows="6"></textarea>
+                            <label htmlFor="message">Wiadomość (opcjonalnie)</label>
+                            <textarea name="entry.1249253311" id="message" rows="6"></textarea>
                         </div>
                         <ul className="actions">
                             <li><input type="submit" value="Wyślij" className="special"/></li>
@@ -69,34 +77,9 @@ const Contact = (props) => {
                     </form>
                   )}
               </section>
-              <section className="split">
-                  <section>
-                      <div className="contact-method">
-                          <span className="icon alt fa-envelope"></span>
-                          <h3>Email</h3>
-                          <a href="mailto:ray.sawka@gmail.com">ray.sawka@gmail.com</a>
-                      </div>
-                  </section>
-                  <section>
-                      <div className="contact-method">
-                          <span className="icon alt fa-phone"></span>
-                          <h3>Telefon</h3>
-                          <a href="phone:602 346 597">602 346 597</a>
-                      </div>
-                  </section>
-                  {/*<section>*/}
-                  {/*    <div className="contact-method">*/}
-                  {/*        <span className="icon alt fa-home"></span>*/}
-                  {/*        <h3>Address</h3>*/}
-                  {/*        <span>1234 Somewhere Road #5432<br/>*/}
-                  {/*          Nashville, TN 00000<br/>*/}
-                  {/*          United States of America</span>*/}
-                  {/*    </div>*/}
-                  {/*</section>*/}
-              </section>
           </div>
       </section>
     )
 }
 
-export default Contact
+export default BookLesson
