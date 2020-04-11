@@ -7,6 +7,7 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import SEO from '../components/SEO'
+import EmbeddedTest from '../components/EmbeddedTest'
 
 const Elements = (props) => (
   <Layout>
@@ -20,9 +21,7 @@ const Elements = (props) => (
             <h1 style={{maxWidth: "100%"}}>Test sprawdzający znajomość języka angielskiego</h1>
           </header>
 
-          <h2 id="content">W przygotowaniu...</h2>
-          <p>Zostaw maila za pomocą formularza poniżej, a poinformuję Cię, gdy test będzie gotowy :)</p>
-          <p>Już niebawem!</p>
+          <EmbeddedTest />
 
         </div>
       </section>
