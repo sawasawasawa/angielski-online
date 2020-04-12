@@ -29,7 +29,7 @@ const Elements = (props) => {
               <p></p>
 
               <p>
-                Podaj teraz swój adres email i kliknij przycisk 'Zacznij test' by rozpocząć test.
+                Podaj swój adres email i kliknij przycisk 'Zacznij test' by rozpocząć test.
               </p>
 
               <form onSubmit={() => setShowForm(true)}>
