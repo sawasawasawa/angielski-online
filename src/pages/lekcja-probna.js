@@ -21,7 +21,7 @@ const Elements = (props) => (
             <h1>Lekcja próbna</h1>
           </header>
           <p>
-            Wypełnij poniższy formularz - skontaktuję się z Tobą i umówimy się na bezpłatną lekcję próbną. Pomoże Ci w podjęciu decyzji o dalszej nauce.<br>Bez żadnych zobowiązań :).
+            Wypełnij poniższy formularz - skontaktuję się z Tobą i umówimy się na bezpłatną lekcję próbną. Pomoże Ci w podjęciu decyzji o dalszej nauce.<br/>Bez żadnych zobowiązań :).
           </p>
 
           <section>
