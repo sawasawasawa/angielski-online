@@ -106,7 +106,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Konwersacje</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Chcesz tylko odświeżyć swój angielski? Przygotowujesz się do wyjazdu na konferencję? Na spotkanie biznesowe? Na wakacje? Zapraszamy na konwersacje.</p>
                             <ul className="actions">
                                 <li>
                                     <Link to="/contact" className="button">Więcej</Link>
