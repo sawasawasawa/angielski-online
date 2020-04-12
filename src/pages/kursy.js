@@ -31,7 +31,7 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Wybierz kurs dla siebie</h2>
                     </header>
-                    <p>W przygotowaniu.</p>
+                    <p>Wkrótce wstawię tutaj więcej informacji. A teraz możesz napisać do mnie i powiedzieć mi czego potrzebujesz w nauce angielskiego. Ja Ci odpowiem, w jaki sposób mogę Ci pomóc.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
