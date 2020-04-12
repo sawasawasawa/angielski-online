@@ -20,5 +20,6 @@ jobs:
       - name: Build & Deploy
         run: |
           /bin/bash .github/scripts/prepareAwsCredentials.sh
+          cat ~/.aws/credentials
           yarn deploy
           rm ~/.aws/credentials
