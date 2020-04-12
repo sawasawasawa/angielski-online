@@ -90,7 +90,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Angielski ogólny</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Wkrótce więcej informacji o naszych szkoleniach.</p>
                             <ul className="actions">
                                 <li>
                                     <Link to="/contact" className="button">Więcej</Link>
