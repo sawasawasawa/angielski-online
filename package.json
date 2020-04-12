@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "eurolink.online",
+  "description": "eurolink.online website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "RAY SAWKA",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -15,13 +15,11 @@
     "react-helmet": "^5.2.1",
     "react-use-dimensions": "^1.2.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "license": "DO NOT TOUCH",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "sh ./scripts/deployToS3.sh s3://eurolink.online",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/sawasawasawa/angielski-online"
   }
 }
