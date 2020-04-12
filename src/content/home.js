@@ -7,7 +7,7 @@ export default {
       <ul>
         <li>Nauka indywidualna, w parach lub małych grupach</li>
         <li>Język ogólny, w biznesie, dla pracowników nauki i konwersacje</li>
-        <li>Bez dojazdów, elastycznie, uczysz się, kiedy chcesz</li>
+        <li>Uczysz się kiedy chcesz, gdzie chcesz, ile chcesz</li>
         {/*<li></li>*/}
       </ul>
     </>
