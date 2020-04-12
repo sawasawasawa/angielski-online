@@ -42,7 +42,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Angielski ogólny</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Strona w przygotowaniu :).</p>
                             <ul className="actions">
                                 <li>
                                     <Link to="/contact" className="button">Więcej</Link>
@@ -58,7 +58,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Angielski w biznesie</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Informacja w przygotowaniu.</p>
                             <ul className="actions">
                                 <li>
                                     <Link to="/contact" className="button">Więcej</Link>
@@ -74,7 +74,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Angielski dla pracowników nauki</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Informacja wkrótce.</p>
                             <ul className="actions">
                                 <li>
                                     <Link to="/contact" className="button">Więcej</Link>
