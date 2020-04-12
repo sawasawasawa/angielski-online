@@ -43,8 +43,8 @@ class Layout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
-                    {!this.props.noFooterForm && <Contact />}
-                    <Footer />
+                    {!this.props.noFooterForm && !this.props.noFooter && <Contact />}
+                    {!this.props.noFooter && <Footer/>}
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
             </div>

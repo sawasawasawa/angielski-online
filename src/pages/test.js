@@ -1,34 +1,54 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React, { useState } from 'react'
 import Layout from '../components/layout'
 
-import pic03 from '../assets/images/pic03.jpg'
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 import SEO from '../components/SEO'
 import EmbeddedTest from '../components/EmbeddedTest'
 
-const Elements = (props) => (
-  <Layout>
-    <SEO/>
+const Elements = (props) => {
+  const [showForm, setShowForm] = useState(false)
+  const [email, setEmail] = useState('')
 
-    <div id="main" className="alt">
+  return (<Layout noFooter={showForm}>
+      <SEO/>
+    {
+      showForm
+       ? <div id="main" className="alt">
+          <EmbeddedTest email={email}/>
+      </div>
+       :
+        <div id="main" className="alt">
 
-      <section id="one">
-        <div className="inner">
-          <header className="major">
-            <h1 style={{maxWidth: "100%"}}>Test sprawdzający znajomość języka angielskiego</h1>
-          </header>
+          <section id="one">
+            <div className="inner">
+              <header className="major">
+                <h1 style={{ maxWidth: '100%' }}>Test sprawdzający znajomość języka angielskiego</h1>
+              </header>
 
-          <EmbeddedTest />
+              <p>INSTRUKCJA</p>
+
+              <p></p>
+
+              <p>
+                Podaj swój adres email i kliknij przycisk 'Zacznij test' by rozpocząć test.
+              </p>
+
+              <form onSubmit={() => setShowForm(true)}>
+                <div className="field">
+                  <label htmlFor="email">email</label>
+                  <input type="email" id="email" required style={{maxWidth: 400}} value={email} onChange={e=>setEmail(e.target.value)}/>
+                </div>
+                <ul className="actions">
+                  <li style={{maxWidth: 400, width: '100%'}}><input type="submit" value="Zacznij test" className="special" style={{maxWidth: 400, width: '100%'}}/></li>
+                </ul>
+              </form>
+
+            </div>
+          </section>
 
         </div>
-      </section>
-
-    </div>
-
-  </Layout>
-)
+    }
+    </Layout>
+  )
+}
 
 export default Elements
