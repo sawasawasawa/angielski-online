@@ -2,16 +2,18 @@ import React from 'react'
 
 const Footer = (props) => (
     <footer id="footer">
-        <div className="inner">
-            <ul className="icons">
+        <div className="inner" >
+            {/*<ul className="icons">*/}
                 {/*<li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>*/}
                 {/*<li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>*/}
                 {/*<li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>*/}
                 {/*<li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>*/}
-                <li><a href="https://www.linkedin.com/in/rajmundsawka/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
-            </ul>
+                {/*<li><a href="https://www.linkedin.com/in/rajmundsawka/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>*/}
+            {/*</ul>*/}
             <ul className="copyright">
-                <li>&copy; Rajmund Sawka</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Rajmund Sawka 2001-{new Date().getFullYear()}</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>Wykonanie: <a href="https://sawka.pro">sawka.pro</a></li>
             </ul>
         </div>
     </footer>
