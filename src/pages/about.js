@@ -20,7 +20,19 @@ const Elements = (props) => (
                         <h1>O mnie</h1>
                     </header>
 
-                    <h2 id="content">W przygotowaniu...</h2>
+                    <h2 id="content">Szukasz dobrego nauczyciela języka angielskiego? Udało się! Jestem dobrym nauczycielem.<br/>
+                        Można czasem usłyszeć, że jeszcze nikt nikogo niczego nie nauczył - każdy wszystkiego musi nauczyć sią sam. 
+                        Ja jednak potrafię wskazać efektywną ścieżkę nauki i z sukcesem pomóc Ci w Twojej własnej nauce.<br/><br/>
+                        Moje doświadczenie to:<br/>
+                        - nauczanie angielskiego – w Instytucie Anglistyki UMCS, w szkołach prywatnych i państwowych. 
+                        Prowadziłem też stacjonarną szkołę językową. Niektórzy z jej uczniów zostali lektorami, inni zdawali na wysokim 
+                        poziomie egzaminy TELC i Cambridge<br/>
+                        - praca metodyka nauczania języka angielskiego – doradzałem nauczycielom jak uczyć i szkoliłem przyszłych nauczycieli<br/>
+                        - praca w międzynarodowych wydawnictwach zajmujących się materiałami do nauki języka angielskiego<br/>
+                        W wydawnictwach Pearson i Cambridge pracowałem w czasach, gdy płyty CD dołączane do podręczników i słowników były 
+                        szczytem nowoczesności. Świat nie stoi jednak w miejscu. Teraz w laptopie, tablecie a nawet w smartfonie mieści się komplet
+                        materiałów potrzebnych nauki. Każdy przeglądał je wielokrotnie. Jeśli jednak tu jesteś - to znaczy, że już wiesz, że potrzebna Ci moja pomoc.<br/>
+                        Napisz do mnie</h2>
                     {/*<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>*/}
                     {/*<div className="grid-wrapper">*/}
                     {/*    <div className="col-6">*/}
