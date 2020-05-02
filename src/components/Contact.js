@@ -81,7 +81,7 @@ const Contact = (props) => {
                       <div className="contact-method">
                           <span className="icon alt fa-phone"></span>
                           <h3>Telefon</h3>
-                          <a href="phone:602 346 597">602 346 597</a>
+                          <a href="phone:+48 602 346 597">+48 602 346 597</a>
                       </div>
                   </section>
                   {/*<section>*/}
