@@ -30,11 +30,11 @@ const Elements = (props) => {
 
               <p>
                 Sprawdź swój poziom znajomości angielskiego. Do napisania testu potrzebujesz nie więcej niż 60 minut, 
-                ale być może zajmie Ci to mniej czasu. </br>
+                ale być może zajmie Ci to mniej czasu. <br/>
                 Test składa sie ze 100 zdań, które należy uzupełnić odpowiednim słowem lub zwrotem. 
-                W każdym zadaniu poprawna jest tylko jedna odpowiedź. Postaraj się odpowiedzieć na jak najwięcej pytań.</br></br>
-                Podaj swój adres email - na ten adres wyślemy Ci wynik testu.</br>
-                Jesteś gotowy? Kliknij przycisk 'Zacznij test' aby rozpocząć.</br>
+                W każdym zadaniu poprawna jest tylko jedna odpowiedź. Postaraj się odpowiedzieć na jak najwięcej pytań.<br/><br/>
+                Podaj swój adres email - na ten adres wyślemy Ci wynik testu.<br/>
+                Jesteś gotowy? Kliknij przycisk 'Zacznij test' aby rozpocząć.<br/>
                 Powodzenia! 
               </p>
 
