@@ -43,11 +43,11 @@ const Landing = (props) => (
                                 <h3>Angielski ogólny</h3>
                             </header>
                             <p>Strona w przygotowaniu :).</p>
-                            <ul className="actions">
-                                <li>
-                                    <Link to="/contact" className="button">Więcej</Link>
-                                </li>
-                            </ul>
+                            {/*<ul className="actions"> */}
+                               {/* <li>*/}
+                                {/*    <Link to="/contact" className="button">Więcej</Link> */}
+ {/*                               </li>*/}
+    {/*                        </ul>*/}
                         </div>
                     </div>
                 </section>
@@ -59,11 +59,6 @@ const Landing = (props) => (
                                 <h3>Angielski w biznesie</h3>
                             </header>
                             <p>Informacja w przygotowaniu.</p>
-                            <ul className="actions">
-                                <li>
-                                    <Link to="/contact" className="button">Więcej</Link>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </section>
@@ -75,11 +70,7 @@ const Landing = (props) => (
                                 <h3>Angielski dla pracowników nauki</h3>
                             </header>
                             <p>Informacja wkrótce.</p>
-                            <ul className="actions">
-                                <li>
-                                    <Link to="/contact" className="button">Więcej</Link>
-                                </li>
-                            </ul>
+
                         </div>
                     </div>
                 </section>
@@ -91,11 +82,6 @@ const Landing = (props) => (
                                 <h3>Angielski ogólny</h3>
                             </header>
                             <p>Wkrótce więcej informacji o naszych szkoleniach.</p>
-                            <ul className="actions">
-                                <li>
-                                    <Link to="/contact" className="button">Więcej</Link>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </section>
@@ -107,11 +93,6 @@ const Landing = (props) => (
                                 <h3>Konwersacje</h3>
                             </header>
                             <p>Chcesz tylko odświeżyć swój angielski? Przygotowujesz się do wyjazdu na konferencję? Na spotkanie biznesowe? Na wakacje? Zapraszamy na konwersacje.</p>
-                            <ul className="actions">
-                                <li>
-                                    <Link to="/contact" className="button">Więcej</Link>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </section>
