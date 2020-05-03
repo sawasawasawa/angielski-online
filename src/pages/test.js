@@ -36,8 +36,8 @@ const Elements = (props) => {
                 Podaj swój adres email - na ten adres wyślemy Ci wynik testu.<br/>
                 Jesteś gotowy? Kliknij przycisk 'Zacznij test' aby rozpocząć.<br/>
                 Powodzenia!<br/></p>
-                
-                <p style="font-size:6px">© 2020, Rajmund Sawka. This work is licensed under the Creative Commons Attribution 
+
+                <p style={{fontSize: '10px'}}>© 2020, Rajmund Sawka. This work is licensed under the Creative Commons Attribution
                 Noncommercial 4.0 International License, CC BY NC. To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc/4.0/
               </p>
 
