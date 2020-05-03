@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
+import learningAtHome from '../assets/images/Learning_at_home.jpg'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
@@ -36,7 +37,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <img src={pic08} alt="" />
+                    <img src={learningAtHome} alt="" />
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -74,17 +75,17 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <img src={pic08} alt="" />
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Angielski ogólny</h3>
-                            </header>
-                            <p>Wkrótce więcej informacji o naszych szkoleniach.</p>
-                        </div>
-                    </div>
-                </section>
+                {/*<section>*/}
+                {/*    <img src={pic08} alt="" />*/}
+                {/*    <div className="content">*/}
+                {/*        <div className="inner">*/}
+                {/*            <header className="major">*/}
+                {/*                <h3>Angielski ogólny</h3>*/}
+                {/*            </header>*/}
+                {/*            <p>Wkrótce więcej informacji o naszych szkoleniach.</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
                 <section>
                     <img src={pic08} alt="" />
                     <div className="content">
