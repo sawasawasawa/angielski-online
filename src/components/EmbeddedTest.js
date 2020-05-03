@@ -3,7 +3,7 @@ import useDimensions from 'react-use-dimensions'
 
 export default ({email}) => {
   // TODO resize
-  const [ref, { x, y, width }] = useDimensions();
+  const [ref, { width }] = useDimensions();
   const src = `https://docs.google.com/forms/d/e/1FAIpQLSfW4ybnvl1nyn9hip9V2I3YCNEZEhlqRKAo94-Cv4QZjA7Q2A/viewform?embedded=true${email ? '&emailAddress=' + email : ''}`
 
   return <div ref={ref}>

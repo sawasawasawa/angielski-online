@@ -1,7 +1,7 @@
 import Helmet from 'react-helmet'
 import React from 'react'
 
-export default () => <Helmet
+export default (props) => <Helmet
   title="EUROlink.online"
   meta={[
     { name: 'description', content: 'Nauka angielskiego online.' },
@@ -11,4 +11,5 @@ export default () => <Helmet
     },
   ]}
 >
+  {props.children}
 </Helmet>

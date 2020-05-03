@@ -2,7 +2,7 @@ import React from 'react'
 
 export default {
   top: {
-    heading: "Kursy języka angielskiego online",
+    heading: "Nauka języka angielskiego online",
     body: <>
       <ul>
         <li>Nauka indywidualna, w parach lub małych grupach</li>

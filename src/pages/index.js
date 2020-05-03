@@ -39,32 +39,32 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
+                                <h3>Tłumaczenia</h3>
+                                <p>Polski &harr; angielski</p>
+                            </header>
+                            <Link to="/tlumaczenia" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${pic04})`}}>
+                            <header className="major">
                                 <h3>O mnie</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>Czyli dlaczego warto ze mną się uczyć</p>
                             </header>
                             <Link to="/about" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${pic05})`}}>
+                            <header className="major">
+                                <h3>Rekomendacje</h3>
+                                <p>Opinie uczniów</p>
+                            </header>
+                            <Link to="/opinie" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Lekcja próbna</h3>
                                 <p>Poznajmy się!</p>
                             </header>
                             <Link to="/lekcja-probna" className="link primary"></Link>
                         </article>
-                        {/*<article style={{backgroundImage: `url(${pic05})`}}>*/}
-                        {/*    <header className="major">*/}
-                        {/*        <h3>Consequat</h3>*/}
-                        {/*        <p>Ipsum dolor sit amet</p>*/}
-                        {/*    </header>*/}
-                        {/*    <Link to="/landing" className="link primary"></Link>*/}
-                        {/*</article>*/}
-                        {/*<article style={{backgroundImage: `url(${pic06})`}}>*/}
-                        {/*    <header className="major">*/}
-                        {/*        <h3>Etiam</h3>*/}
-                        {/*        <p>Feugiat amet tempus</p>*/}
-                        {/*    </header>*/}
-                        {/*    <Link to="/landing" className="link primary"></Link>*/}
-                        {/*</article>*/}
                     </section>
                     {/*<section id="two">*/}
                     {/*    <div className="inner">*/}

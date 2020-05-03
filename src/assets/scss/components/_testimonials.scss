@@ -1,0 +1,70 @@
+.BrainhubCarouselItem {
+  margin-top: 30px;
+  display: block;
+}
+
+.BrainhubCarousel__arrows {
+  box-shadow: none;
+}
+
+.testimonial {
+  padding: 2em;
+
+
+  &__image {
+    border-radius: 50%;
+    background: white;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+  }
+
+  &__top__description {
+    text-align: right;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-top: 2px solid white;
+    margin-bottom: 20px;
+
+    > * {
+      postion: absolute;
+      top: -1em;
+    }
+  }
+
+  &__name {
+    font-size: 1.2em
+  }
+
+  &__position {
+    font-size: 0.9em
+  }
+
+  .testimonial__body {
+    position: relative;
+
+    &__content {
+      height: 100%;
+      padding: 20px 40px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    &__quote {
+      position: absolute;
+      font-size: 80px;
+      opacity: 0.5;
+
+      &-start {
+        top: -20px;
+        left: 0;
+      }
+
+      &-end {
+        bottom: -20px;
+        right: 0;
+      }
+    }
+  }
+}

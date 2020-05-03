@@ -29,16 +29,19 @@ const Elements = (props) => {
               <p></p>
 
               <p>
-                Sprawdź swój poziom znajomości angielskiego. Do napisania testu potrzebujesz nie więcej niż 60 minut, 
+                Sprawdź swój poziom znajomości angielskiego. Do napisania testu potrzebujesz nie więcej niż 60 minut,
                 ale być może zajmie Ci to mniej czasu. <br/>
-                Test składa sie ze 100 zdań, które należy uzupełnić odpowiednim słowem lub zwrotem. 
+                Test składa sie ze 100 zdań, które należy uzupełnić odpowiednim słowem lub zwrotem.
                 W każdym zadaniu poprawna jest tylko jedna odpowiedź. Postaraj się odpowiedzieć na jak najwięcej pytań.<br/><br/>
                 Podaj swój adres email - na ten adres wyślemy Ci wynik testu.<br/>
                 Jesteś gotowy? Kliknij przycisk 'Zacznij test' aby rozpocząć.<br/>
-                Powodzenia! 
+                Powodzenia!
               </p>
 
-              <form onSubmit={() => setShowForm(true)}>
+              <form onSubmit={(e) => {
+                e.preventDefault()
+                setShowForm(true)
+              }}>
                 <div className="field">
                   <label htmlFor="email">email</label>
                   <input type="email" id="email" required style={{maxWidth: 400}} value={email} onChange={e=>setEmail(e.target.value)}/>
