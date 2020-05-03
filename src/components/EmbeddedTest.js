@@ -5,7 +5,7 @@ export default ({email}) => {
   // TODO resize
   const [ref, { width }] = useDimensions();
   const src = `https://docs.google.com/forms/d/e/1FAIpQLSfW4ybnvl1nyn9hip9V2I3YCNEZEhlqRKAo94-Cv4QZjA7Q2A/viewform?embedded=true${email ? '&emailAddress=' + email : ''}`
-  const height = typeof window != undefined ? window.innerHeight - 89 : 650
+  const height = typeof window != 'undefined' ? window.innerHeight - 89 : 650
 
   return <div ref={ref}>
     <iframe
