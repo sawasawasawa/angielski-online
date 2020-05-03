@@ -35,7 +35,7 @@ const Elements = (props) => {
                 W każdym zadaniu poprawna jest tylko jedna odpowiedź. Postaraj się odpowiedzieć na jak najwięcej pytań.<br/><br/>
                 Podaj swój adres email - na ten adres wyślemy Ci wynik testu.<br/>
                 Jesteś gotowy? Kliknij przycisk 'Zacznij test' aby rozpocząć.<br/>
-                Powodzenia!<br/><br/>
+                Powodzenia!<br/></p>
                 <p style="font-size:6px">© 2020, Rajmund Sawka. Licensed under the Creative Commons Attribution Noncommercial 4.0 International License, CC BY NC. 
                 To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc/4.0/
               </p>
