@@ -63,17 +63,19 @@ const testimonials = [
   {
     name: 'Natalia Pochroń',
     position: <i><strong>Stomatolog</strong>, Nowy Dwór Mazowiecki</i>,
-    text: <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. </p>,
+    text: <p>To, co go wyróżnia to doświadczenie i profesjonalizm. 
+    Łatwo zauważyć, że doskonale zna język angielski i potrafi to przekazywać z wielką energią.</p>,
   },
   {
     name: 'Mateusz Skórka',
     position: <i>Bychawa</i>,
-    text: <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>,
+    text: <p>I truly recommend distance learning with Ray.</p>,
   },
   {
-    name: 'Anastazja Żuławnik',
-    position: <i><strong>Stomatolog</strong>, Warszawa</i>,
-    text: <p>Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>,
+    name: 'Małgorzata Grygiel',
+    position: <i>Lublin</i>,
+    text: <p>Cenię go za cierpliwość i umiejętność dostosowania się do wszystkich uczniów. Jest bardzo otwarty na potrzeby ucznia potrafi 
+    aktywnie słuchać.</p>,
   },
 ]
 
