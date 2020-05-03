@@ -9,7 +9,13 @@ export default ({email}) => {
   return <div ref={ref}>
     <iframe
       src={src}
-      width={width} height="650" frameBorder="0" marginHeight="0" marginWidth="0">Ładuję…
+      width={width} height={window.innerHeight - 89} frameBorder="0" marginHeight="0" marginWidth="0">Ładuję…
     </iframe>
+
+    <div style={{display: 'flex', justifyContent: 'center'}}>
+    <span style={{fontSize: '12px', textAlign: 'center', width: '100%'}}>© 2020, Rajmund Sawka. This work is licensed under the Creative Commons Attribution
+                Noncommercial 4.0 International License, CC BY NC. To view a copy of this license, visit: <a href="https://creativecommons.org/licenses/by-nc/4.0/">creativecommons.org/licenses/by-nc/4.0/</a>
+              </span>
+    </div>
   </div>
 }
