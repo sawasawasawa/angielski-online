@@ -46,7 +46,7 @@
 
     &__content {
       height: 100%;
-      padding: 20px 40px;
+      padding: 20px 0px 20px 60px;
       text-align: justify;
       text-justify: inter-word;
     }
@@ -57,13 +57,13 @@
       opacity: 0.5;
 
       &-start {
-        top: -20px;
-        left: 0;
+        top: -30px;
+        left: 25px;
       }
 
       &-end {
-        bottom: -20px;
-        right: 0;
+        bottom: -30px;
+        right: -30px;
       }
     }
   }

@@ -36,25 +36,25 @@ const Opinions = (props) => {
             </header>
           </div>
         </section>
-      </div>
+        <Carousel
+          // autoPlay={2500}
+          stopAutoPlayOnHover
+          clickToChange
+          infinite
+          arrows
+          slidesPerPage={2}
+          onChange={setOpinionIndex}
+          breakpoints={{
+            900: {
+              slidesPerPage: 1,
+            }
+          }}
+        >
+          {testimonials.map(testimonial => <Testimonial {...testimonial}/>)}
+        </Carousel>
+        {/*<Dots value={opinionIndex} onChange={setOpinionIndex} number={testimonials.length} />*/}
 
-      <Carousel
-        autoPlay={2500}
-        stopAutoPlayOnHover
-        clickToChange
-        infinite
-        arrows
-        slidesPerPage={2}
-        onChange={setOpinionIndex}
-        breakpoints={{
-          900: {
-            slidesPerPage: 1,
-          }
-        }}
-      >
-        {testimonials.map(testimonial => <Testimonial {...testimonial}/>)}
-      </Carousel>
-      {/*<Dots value={opinionIndex} onChange={setOpinionIndex} number={testimonials.length} />*/}
+      </div>
     </Layout>
   )
 }
