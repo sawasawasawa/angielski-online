@@ -5,7 +5,7 @@ import SEO from '../components/SEO'
 import EmbeddedTest from '../components/EmbeddedTest'
 
 const Elements = (props) => {
-  const [showForm, setShowForm] = useState(true)
+  const [showForm, setShowForm] = useState(false)
   const [email, setEmail] = useState('')
 
   return (<Layout noFooter={showForm}>
