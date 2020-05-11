@@ -37,6 +37,9 @@ const Elements = (props) => (
               <li>
                 praca w międzynarodowych wydawnictwach zajmujących się materiałami do nauki języka angielskiego
               </li>
+              <li>
+                praca w międzynarodowych wydawnictwach akademickich: Gale (part of Cengage), Taylor & Francis (part of informa)
+              </li>
             </ul>
             W wydawnictwach Pearson i Cambridge pracowałem w czasach, gdy tworzyliśmy początki kursów wspomaganych komputerowo a płyty CD dołączane do podręczników były szczytem nowoczesności.
             Świat nie stoi jednak w miejscu. Teraz w laptopie, tablecie a nawet w smartfonie mieści się komplet materiałów potrzebnych do nauki. Każdy przeglądał je wielokrotnie. Jeśli jednak tu jesteś - to znaczy, że już wiesz, że potrzebna Ci moja pomoc.
