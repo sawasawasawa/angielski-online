@@ -12,18 +12,7 @@ const Landing = (props) => (
           <h1>Tłumaczenia</h1>
         </header>
         <div className="content">
-          <p><li>tłumaczenia zwykłe i przysięgłe</li>
-              <li>tłumaczenia stron www</li>
-              <li>teksty specjalistyczne</li>
-              <li>dokumenty firmowe</li>
-              <li>prezentacje</li>
-              <li>lokalizacja oprogramowania</li>
-              <li>listy, emaile</li>
-              <li>tłumaczenia ustne</li>
-              Tłumaczenia pisemne: prosimy o kontakt telefoniczny lub mailowy w celu wyceny. Po przesłaniu tekstu do tłumaczenia 
-              przeliczymy znaki na stronę przeliczeniową i prześlemy wycenę do akceptacji.<br/>
-              Tłumaczenia ustne: prosimy o kontakt w celu uzgodnienia zakresu tłumaczenia, miejsca, terminu. Na tej podstawie uzgodnimy 
-              wycenę.
+          <p>
   </p>
         </div>
       </div>
@@ -33,9 +22,25 @@ const Landing = (props) => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Masz pytania?</h2>
+            <h2>Tłumaczymy:</h2>
           </header>
-          <p>Zapytaj o wycenę</p>
+          <p><li>pisemnie i ustnie</li>
+              <li>tłumaczenia zwykłe i przysięgłe</li>
+              <li>strony www</li>
+              <li>teksty specjalistyczne</li>
+              <li>dokumenty firmowe</li>
+              <li>prezentacje</li>
+              <li>lokalizacja oprogramowania</li>
+              <li>listy, emaile</li>
+              <li>inne ...</li> </p>
+  <p>
+              Tłumaczenia pisemne: prosimy o kontakt telefoniczny lub mailowy w celu wyceny. Po przesłaniu tekstu do tłumaczenia 
+              przeliczymy znaki na stronę przeliczeniową i prześlemy wycenę do akceptacji.<br/></p>
+  <p>
+              Tłumaczenia ustne: prosimy o kontakt w celu uzgodnienia zakresu tłumaczenia, miejsca, terminu. Na tej podstawie uzgodnimy 
+              wycenę.
+
+  </p>
         </div>
       </section>
 
