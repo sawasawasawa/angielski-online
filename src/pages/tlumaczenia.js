@@ -34,8 +34,8 @@ const Landing = (props) => (
               <li>listy, emaile</li>
               <li>inne ...</li> </p>
   <p>
-              Tłumaczenia pisemne: prosimy o kontakt telefoniczny lub mailowy w celu wyceny. Po przesłaniu tekstu do tłumaczenia 
-              przeliczymy znaki na stronę przeliczeniową i prześlemy wycenę do akceptacji.<br/></p>
+              Tłumaczenia pisemne: prosimy o kontakt telefoniczny lub mailowy lub poprzez poniższy formularz w celu wyceny. 
+              Po przesłaniu tekstu do tłumaczenia przeliczymy znaki na stronę przeliczeniową i prześlemy wycenę do akceptacji.<br/></p>
   <p>
               Tłumaczenia ustne: prosimy o kontakt w celu uzgodnienia zakresu tłumaczenia, miejsca, terminu. Na tej podstawie uzgodnimy 
               wycenę.
