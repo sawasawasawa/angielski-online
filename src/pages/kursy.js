@@ -70,7 +70,14 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Angielski w biznesie</h3>
                             </header>
-                            <p>Informacja w przygotowaniu.</p>
+                            <p>Compute znaczy liczyć. Jeśli chcesz być konkurencyjny - musisz nie tylko liczyć po angielsku. 
+                                Musisz również umieć posługiwać się angielskim w różnych kontekstach kulturowych. 
+                                Inaczej prowadzi się negocjacje z przedsiębiorcami z Dalekiego Wschodu, inaczej z Europy Zachodniej czy 
+                                Ameryki. To, co w jednej kulturze uważane jest za elegancję, w innej uchodzi za obraźliwe. I to także 
+                                jest element Business English. Nie wystarczy znać słówka oraz gramatykę, aby prowadzić z powodzeniem 
+                                interesy. Internet ułatwia nawiązywanie kontaktów, ale chcąc je rozwijać, trzeba rozumieć konteksty 
+                                kulturowe. Nieodzowna jest też znajomość zasad etyki i umiejętność wyrażenia jej w języku angielskim. 
+                                Byłem menedżerem sprzedaży w Europie i Azji – nauczę Cię.</p>
                         </div>
                     </div>
                 </section>
@@ -79,9 +86,13 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Angielski dla pracowników nauki</h3>
+                                <h3>Angielski egzaminacyjny</h3>
                             </header>
-                            <p>Informacja wkrótce.</p>
+                            <p>Egzamin językowy składa się z części  pisemnej obejmującej rozumienie tekstu, pisanie, rozumienie ze 
+                                słuchu, struktury gramatyczne i słownictwo oraz z części ustnej, polegającej na rozmowie z innym 
+                                egzaminowanym lub z egzaminatorem na dany temat. Co daje certyfikat językowy? Potwierdza solidne 
+                                podstawy, umiejętność rozmowy, znajomość słownictwa i struktur gramatycznych na określonym poziomie. 
+                                Przygotuje Cię do egzaminów Cambridge, TOEFL, TELC albo do matury z angielskiego.</p>
 
                         </div>
                     </div>
@@ -104,7 +115,14 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Konwersacje</h3>
                             </header>
-                            <p>Chcesz tylko odświeżyć swój angielski? Przygotowujesz się do wyjazdu na konferencję? Na spotkanie biznesowe? Na wakacje? Zapraszamy na konwersacje.</p>
+                            <p>Chcesz tylko odświeżyć swój angielski? Przygotowujesz się do wyjazdu na konferencję? Na spotkanie 
+                                biznesowe? Na wakacje? Zapraszamy na konwersacje.<br/>
+                                Jest to najtrudniejsza z umiejętności językowych. Na jej skuteczność wpływają pojedyncze umiejętności 
+                                nabywane w całym procesie nauki, pomagają też cechy charakteru, a kontrowersyjne tematy często stają się 
+                                skutecznym bodźcem. Ćwiczenie mówienia mogą nam ułatwić i uprzyjemnić liczne narzędzia internetowe: 
+                                publikacje i podkasty dotyczące aktualnych wiadomości. Elementem konwersacji mogą być samodzielnie 
+                                tworzone materiały np. prezentacje produktów lub usług. Dodatkowym atutem może być tematyka – im 
+                                ciekawsza, tym chętniej realizowana. Możemy rozmawiać na każdy temat, który Cię interesuje.</p>
                         </div>
                     </div>
                 </section>
