@@ -22,8 +22,7 @@ const Landing = (props) => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Tłumaczymy:</h2>
-          </header>
+                     </header>
           <p><li>pisemnie i ustnie</li>
               <li>tłumaczenia zwykłe i przysięgłe</li>
               <li>strony www</li>
