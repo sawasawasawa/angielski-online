@@ -24,7 +24,7 @@ const Landing = (props) => (
           <header className="major">
                      </header>
           <p><li>pisemne i ustne</li>
-              <li>tłumaczenia zwykłe i przysięgłe</li>
+              <li>zwykłe i przysięgłe</li>
               <li>strony www</li>
               <li>teksty specjalistyczne</li>
               <li>dokumenty firmowe</li>
