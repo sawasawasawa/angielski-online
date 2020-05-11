@@ -44,7 +44,7 @@ const Landing = (props) => (
                                 <h3>Angielski ogólny</h3>
                             </header>
                             <p>Miliony zwykłych ludzi zna obce języki. Jednak wielu innych myśli, że nie są w stanie się ich nauczyć. 
-                                Mówią więc:</br>
+                                Mówią więc:<br/>
                             <ul>
                             <li>Nigdy nie miałem okazji nauczyć się obcego języka, a teraz jestem za stary.</li>
                                 Nie! Nigdy nie jest się za starym na naukę.
