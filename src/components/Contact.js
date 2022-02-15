@@ -1,7 +1,7 @@
 import React, { createRef, useState } from 'react'
 
 const config = {
-    cors: "https://cors-anywhere.herokuapp.com/", // <optional> doesn't display the cors error
+//    cors: "https://cors-anywhere.herokuapp.com/", // <optional> doesn't display the cors error
     formUrl:  "https://docs.google.com/forms/u/5/d/e/1FAIpQLSduVqFp2IsSmYhL_ZfQnzDDcX7F1Q8uHZZxaB4vEn7yX18Xow/formResponse"
 };
 
